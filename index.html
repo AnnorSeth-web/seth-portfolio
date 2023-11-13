@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="canvas-header header-js hide-for-large">
+        <div class="grid-container fluid">
+            <div class="grid-x grid-margin-x">
+                <div class="cell auto">
+                    <div class="main-site-header__logo">
+                        <a href="index.html">
+                            <img src="images/logo-no-bg.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="cell shrink">
+                    <button type="button" class="button humburger hide-for-large" data-toggle="inCanvasExample">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="off-canvas position-right seth-canvas" id="inCanvasExample" data-off-canvas data-options="inCanvasFor:large;">
+        <button class="close-button" aria-label="Close menu" type="button" data-close >
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <div class="">
+            <ul class="menu vertical" data-smooth-scroll>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfolio">Portfolio </a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="main-site-header hide-for-small-only hide-for-medium-only">
+        <div class="main-site-header__logo">
+            <a href="index.html">
+                <img src="images/logo-with-text.png" alt="">
+            </a>
+        </div>
+        <div class="main-site-header__nav">
+            <ul class="menu vertical" data-smooth-scroll>
+                <li><a href="index.html">Home <span><img src="images/svg/home-2.svg" alt=""></span></a></li>
+                <li><a href="#about">About me <span><img src="images/svg/clipboard.svg" alt=""></span></a></li>
+                <li><a href="#services">Service <span><img src="images/svg/briefcase.svg" alt=""></span></a></li>
+                <li><a href="#portfolio">Portfolio <span><img src="images/svg/messages-1.svg" alt=""></span></a></li>
+                <li><a href="contact.html">Contact <span><img src="images/svg/user-square.svg" alt=""></span></a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="site-banner">
+       <div class="grid-x show-for-large" data-equalizer>
+           <div class="cell auto">
+               <div class="site-banner__main-content" data-equalizer-watch>
+                    <div class="site-banner__main-content-wrapper">
+                        <div class="site-banner__main-title">
+                            <h1 class="text-font">Hi I'm Seth! <br>I'm a <span class="dynamic-text"></span></h1>
+                        </div>
+                        <div class="site-banner__main-paragraph text-font text-font">
+                            <p class="text-font">I'm a passionate web developer with a mission to create  delightful and intuitive digital experiences. With a strong foundation in web development principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+                        </div>
+                        <div class="site-banner__CTA">
+                            <a href="./images/Professional CV Resume_20231112_031949_0000.pdf" download="Resume">
+                                Download Resume
+                                <i class="fa fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+               </div>
+           </div>
+           <div class="cell shrink">
+                <div class="site-banner__image" data-equalizer-watch>
+                    <img src="images/bg-image.png" alt="">
+                </div>
+           </div>
+       </div>
+        <div class="site-banner-image hide-for-large" style="background-image: url('./images/bg-image.png');">
+            <div class="site-banner-image__content">
+                <div class="site-banner-image__content--wrapper">
+                    <div class="site-banner-image__content--wrapper-title">
+                        <h1 class="text-font">Hi I'm Seth! <br>I'm a <span class="dynamic-text"></span></h1>
+                    </div>
+                    <div class="site-banner-image__content--wrapper-text">
+                        <p class="text-font">I'm a passionate web developer with a mission to create  delightful and intuitive digital experiences. With a strong foundation in web development principles and a keen eye for detail, I specialize in translating complex ideas into user-friendly interfaces that captivate and engage.</p>
+                    </div>
+                    <div class="site-banner__CTA">
+                        <a href="./images/Professional CV Resume_20231112_031949_0000.pdf" download="Resume">
+                            Download Resume
+                            <i class="fa fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="section">
+        <div class="about-section pad-section" id="about">
+            <div class="grid-container">
+                <div class="about-section__main-title">
+                    <h5 class="text-center"><span>ABOUT ME</span></h5>
+                </div>
+                <div class="about-section__subtitle">
+                    <h2 class="text-font text-center">
+                        <span>Crafting stories through design and <br>
+                        innovation</span>
+                    </h2>
+                </div>
+                <div class="grid-x grid-margin-x mt grid-padding-x">
+                    <div class="cell large-6">
+                       <div class="grid-y grid-margin-y">
+                            <div class="cell large-6">
+                                <div class="about-section__first-icon">
+                                    <img src="images/icon/about_1.png" alt="">
+                                </div>
+                                <div class="about-section__first-paragraph">
+                                    <div class="about-section__first-paragraph-title">
+                                        <span class="text-font">My Ambtion</span>
+                                    </div>
+                                    <div class="about-section__first-paragraph-text text-font">
+                                        <p class=" text-font">My ambiton is to be a lifelong learner, always seeking to improve my skills and expand my knowledge. The web development field evolves rapidly, and its my ambition to stay current with the latest trends and technologies. This might involve learning about Progressive Web Apps (PWAs), WebAssembly, serverless architecture, or other emerging concepts.</p>
+                                        <p class=" text-font">Also I,m passionate about solving real-world problems, thus it's my ambition to develop web applications that make a positive impact on society or my industry.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cell large-6">
+                                <div class="about-section__first-icon">
+                                    <img src="images/icon/about_2.png" alt="">
+                                </div>
+                                <div class="about-section__first-paragraph">
+                                    <div class="about-section__first-paragraph-title">
+                                        <span class="text-font">My Purpose</span>
+                                    </div>
+                                    <div class="about-section__first-paragraph-text text-font">
+                                        <p class=" text-font">My primary purpose as a web developers is to build websites and web applications that provide a positive and user-friendly experience for visitors or users. This involves ensuring functionality, accessibility, and responsiveness.</p>
+                                        <p class=" text-font">Web developers often exist to solve problems. Therefore as a web developer, I identify challenges that businesses or users face and develop web-based solutions to address these issues. Whether it's an e-commerce site, a content management system, or a data-driven web app, your purpose is to provide solutions.</p>
+                                    </div>
+                                </div>
+                            </div>
+                       </div>
+                    </div>
+                    <div class="cell large-6">
+                        <div class="about-section__image">
+                            <img src="images/_MG_9309-removebg-preview.png" alt="">
+                        </div>
+                        <div class="about-section__image-caption">
+                            <i class="fa fa-solid fa-award"></i>
+                            <h4 class="text-font"><span>5+</span> <br> Years of Experience</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-services pad-section" id="services">
+            <div class="grid-container fluid">
+                <div class="my-services__main-title">
+                    <h5 class="text-font"><span>MY SERVICES</span></h5>
+                </div>
+                <div class="my-services__subtitle" style="max-width: 900px;">
+                    <h2 class="text-font">I'm passionate to bring your vision to life with precision and passion</h2>
+                </div>
+                <div class="my-services__featured-items">
+                    <div class="grid-x grid-margin-x grid-margin-y grid-padding-x">
+                        <div class="cell large-4 medium-6">
+                            <div class="my-services__featured-item">
+                                <div class="my-services__featured-item-wrapper">
+                                   <div class="my-services__featured-item-card">
+                                        <div class="my-services__featured-item-image">
+                                            <img src="./images/svg/mobile-programming.svg" alt="">
+                                        </div>
+                                        <div class="my-services__featured-item-title">
+                                            <h4 class="text-font"><span>Web Development</span></h4>
+                                        </div>
+                                        <div class="my-services__featured-item-text">
+                                            <p class="text-font"> I design and build websites for individuals, businesses, or organizations.</p>
+                                        </div>
+                                        <div class="my-services__featured-item-CTA">
+                                            <a href="web-design.html" class="text-font">Learn More</a>
+                                        </div>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell large-4 medium-6">
+                            <div class="my-services__featured-item">
+                                <div class="my-services__featured-item-wrapper">
+                                    <div class="my-services__featured-item-card">
+                                        <div class="my-services__featured-item-image">
+                                            <img src="./images/svg/pen-tool-2.svg" alt="">
+                                        </div>
+                                        <div class="my-services__featured-item-title">
+                                            <h4 class="text-font"><span>Logo Design</span></h4>
+                                        </div>
+                                        <div class="my-services__featured-item-text">
+                                            <p class="text-font">I Create unique and memorable logos that represent a brand's identity and values.</p>
+                                        </div>
+                                        <div class="my-services__featured-item-CTA">
+                                            <a href="logo-design.html">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell large-4 medium-6">
+                            <div class="my-services__featured-item">
+                                <div class="my-services__featured-item-wrapper">
+                                    <div class="my-services__featured-item-card">
+                                        <div class="my-services__featured-item-image">
+                                            <img src="./images/svg/phone.svg" alt="">
+                                        </div>
+                                        <div class="my-services__featured-item-title">
+                                            <h4 class="text-font"><span>App Development</span></h4>
+                                        </div>
+                                        <div class="my-services__featured-item-text">
+                                            <p class="text-font">I develop native mobile apps that offer a high level of performance and native user experiences.</p>
+                                        </div>
+                                        <div class="my-services__featured-item-CTA">
+                                            <a href="app-dev.html" class="text-font">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-portfolio pad-section" id="portfolio">
+            <div class="grid-container">
+                <div class="my-portfolio__reveal">
+                    <div class="my-portfolio__reveal-item-1 reveal large" data-reveal id="aspero" data-animation-in="spin-in" data-animation-out="spin-out">
+                        <img src="./images/reveal-image/aspero.png" alt="" srcset="">
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="my-portfolio__reveal-item-1 reveal large" data-reveal id="casa" data-animation-in="spin-in" data-animation-out="spin-out">
+                        <img src="./images/reveal-image/casa.png" alt="" srcset="">
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="my-portfolio__reveal-item-1 reveal large" data-reveal id="advokat" data-animation-in="spin-in" data-animation-out="spin-out">
+                        <img src="./images/reveal-image/advoka.png" alt="" srcset="">
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="my-portfolio__reveal-item-1 reveal large" data-reveal id="bighorn" data-animation-in="spin-in" data-animation-out="spin-out">
+                        <img src="./images/reveal-image/bighorn.png" alt="" srcset="">
+                        <button class="close-button" data-close aria-label="Close modal" type="button">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="my-portfolio__title">
+                    <h2 class="text-font text-center">My Portfolio</h2>
+                </div>
+                <div class="my-portfolio__subtitle">
+                    <h4 class="text-font text-center">I delight in helping brands evolve, engage and grow in the digital space. <br> View my digital portfolio.</h4>
+                </div>
+                <div class="grid-x grid-margin-x grid-margin-y grid-padding-y align-middle">
+                    <div class="cell large-8">
+                        <div class="my-portfolio__featured-image">
+                            <img src="./images/Aspero-Home - .png" alt="">
+                        </div>
+                    </div>
+                    <div class="cell large-4">
+                        <div class="my-portfolio__featured-text">
+                            <h3 class="text-font">A Professional website for a startup business</h3>
+                            <p class="text-font">Aspero needed to showcase their skills and brand online and  I helped to achieved their goals</p>
+                            <div class="my-portfolio__featured-CTA">
+                                <button data-open="aspero">view full page</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-4">
+                        <div class="my-portfolio__featured-text">
+                            <div class="my-portfolio__featured-text">
+                                <h3 class="text-font">A Corporate website for a home security system</h3>
+                                <p class="text-font">Casa is also a security service company who contacted to showcase their effective skills online</p>
+                                <div class="my-portfolio__featured-CTA">
+                                <button data-open="casa">view full page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-8">
+                        <div class="my-portfolio__featured-image">
+                            <div class="my-portfolio__featured-image">
+                                <img src="./images/CASA - .png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-8">
+                        <div class="my-portfolio__featured-image">
+                            <div class="my-portfolio__featured-image">
+                                <img src="./images/Bighorn-lawfirm - .png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-4">
+                        <div class="my-portfolio__featured-text">
+                            <div class="my-portfolio__featured-text">
+                                <h3 class="text-font">A refreshing look for a law firm</h3>
+                                <p class="text-font">Bighorn lawfirm needed a Professional law firm web design to showcase their services online</p>
+                                <div class="my-portfolio__featured-CTA">
+                                <button data-open="bighorn">view full page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-4">
+                        <div class="my-portfolio__featured-text">
+                            <div class="my-portfolio__featured-text">
+                                <h3 class="text-font">Top notch design for a law firm</h3>
+                                <p class="text-font">Advokat is also a lawfirm needed to showcase the their skills and brand online and I helped to achieved their goals</p>
+                                <div class="my-portfolio__featured-CTA">
+                                <button data-open="advokat">view full page</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cell large-8">
+                        <div class="my-portfolio__featured-image">
+                            <div class="my-portfolio__featured-image">
+                                <img src="./images/Document - .png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-contact-section">
+            <div class="grid-container fluid">
+                <div class="site-contact-section__content">
+                    <div class="site-contact-section__content--title text-center">
+                        <h2 class="text-font">Work With Me</h2>
+                    </div>
+                    <div class="site-contact-section__content--subtitle text-center">
+                        <p class="text-font">Contact me for your Responsive web design, branding and digital marketing that get results</p>
+                    </div>
+                    <div class="site-contact-section__content--featured-item text-center">
+                        <div class="grid-x grid-margin-x grid-margin-y align-middle">
+                            <div class="cell large-6">
+                                <div class="site-contact-section__content--featured-item--CTA text-center">
+                                    <a class="text-font" href="">Call Me +233532069810</a>
+                                </div>
+                            </div>
+                            <div class="cell large-6">
+                                <div class="site-contact-section__content--featured-item--CTA-1">
+                                    <a class="text-font" href="contact.html">Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="site-footer">
+            <div class="grid-container fluid">
+                <div class="site-footer__content">
+                    <div class="site-footer__content--main-text text-center">
+                        <p class="text-font">Seth is a focused custom web design and development, branding and digital marketing <br>
+                        freelancer in Ghana.</p>
+                    </div>
+                    <div class="site-footer__content--main-social text-center">
+                        <a href=""><i class="fa fa-linkedin"></i></a>
+                       <a href=""> <i class="fa fa-facebook"></i></a>
+                        <a href=""><i class="fa fa-youtube"></i></a>
+                        <a href=""><i class="fa fa-instagram"></i></a>
+                        <a href=""><i class="fa fa-github"></i></a>
+                    </div>
+                    <div class="site-credit__wrapper">
+                        <div class="grid-x grid-margin-x grid-margin-y">
+                            <div class="cell large-6">
+                                <div class="site-credit">
+                                    <span class="text-font">© Copyright 2023. All rights reserved. Seth.</span>
+                                </div>
+                            </div>
+                            <div class="cell large-6">
+                                <div class="site-credit text-right">
+                                    <span class="text-font">Developed By Seth</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script> 
+</body>
+</html>
